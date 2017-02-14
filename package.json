@@ -1,0 +1,23 @@
+{
+  "name": "gitlab",
+  "version": "1.0.0",
+  "description": "GitLab.com offers free unlimited (private) repositories and unlimited collaborators.",
+  "main": "index.js",
+  "author": "Fred Duzink <fred@elgentos.nl>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://gitlab.com/users/sign_in",
+    "serviceName": "GitLab",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
